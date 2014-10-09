@@ -91,7 +91,7 @@ public class StockNews {
 			if (info.length() > 5) {
 				System.out.println(String.format("%s <%s>", info, linkUrl));
 				text = getNewsText(linkUrl);
-				System.out.println(info);
+//				System.out.println(info);
 				db.insert(info, linkUrl, text);
 			}
 	}
