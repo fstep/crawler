@@ -1,0 +1,2 @@
+main.class=news.StockNews
+lib.dir=lib
